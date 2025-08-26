@@ -13,9 +13,78 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-   <header></header>
-   <main>
-   </main>
-   <footer></footer>
+    <!-- main content  -->
+    <main class="max-w-screen-xl mx-auto px-16 lg:28">
+        <!-- header section -->
+        <header class="lg:flex md:flex pt-10 mb-28">
+            <!-- Text Content  -->
+            <div>
+                <h1 class="text-5xl
+                 md:text-7xl">It's good <br>tea time at The <br>Tea House </h1>
+                <p class="text-gray-500 w-3/4">Tea is one of the most popular hot a has been a part of this country's people's day-to-day lives. As a result, a tea stall is a familiar place for people of all</p>
+                <button class="h-14 bg-linear-to-r from-orange-500 to-red-500 px-8 py-3 text-white font-bold rounded-lg  ">Explore More<i class="fa-solid fa-arrow-right text-xl -rotate-45 "></i></button>
+            </div>
+            <!-- image Content  -->
+            <div class="relative">
+                <!-- image -->
+                <div>
+                    <img class="w-full" src="images/banner.png" alt="">
+                </div>
+                <!-- card -->
+                 <div class=" absolute flex items-center bg-white shadow-lg px-2 py-2 md:10 lg:py-4 rounded-lg ">
+                    <!-- icon -->
+                    <div><i class="fa-solid fa-star text-2xl text-amber-500"></i></div>
+                    <div class="ml-2">
+                        <h2 class="lg:text-2xl font-bold">5.00</h2>
+                        <p class="text-gray-500">Trust Pilot Ratings</p>
+                    </div>
+                 </div>
+            </div>
+        </header>
+        <!-- Feature product  Section -->
+        <section class="py-8 lg:py-24">
+            <!-- title  -->
+            <div class="text-center mb-5">
+                <h1 class="text-3xl md:text-4xl font-bold mb-2 ">Our Featured Products </h1>
+                <p class="text-gray-500 max-w-lg mx-auto ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            </div>
+            <!-- Grid Card  -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+                <!-- product card 1 -->
+                <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden ">
+                    <img class="mx-auto pt-4 " src="images/tea-1.png" alt="">
+                    <div>
+                        <h1 class="text-xl font-bold ">Milk Tea </h1>
+                        <p class="text-gray-400">Creamer could be replaced by fresh milk </p>
+                    </div>
+                </div>
+                <!-- product card 2 -->
+                <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+                    <img class="mx-auto pt-4" src="images/tea-2.png" alt="">
+                    <div>
+                        <h1 class="text-xl font-bold ">Black Tea</h1>
+                        <p class="text-gray-500">Creamer Could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <!-- Product card 3 -->
+                 <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+                    <img class="mx-auto pt-4" src="images/tea-3.png" alt="">
+                    <div >
+                        <h3 class="text-xl font-bold ">Lemon Tea </h3>
+                        <p class="text-gray-500">Creamer could be replaced by fresh milk</p>
+                    </div>
+                 </div>
+                <!-- product card 4 -->
+                <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+                    <img class="mx-auto pt-4 " src="images/tea-4.png" alt="">
+                    <div>
+                        <h3 class="text-xl font-bold">Greeen Tea</h3>
+                        <p class="text-gray-500">Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+            
+            </div>
+        </section>
+    </main>
 </body>
 </html>
